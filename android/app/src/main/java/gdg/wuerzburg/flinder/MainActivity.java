@@ -1,4 +1,4 @@
-package gdg.wuerzburg.flinder;
+package gdg.wuerzburg.flanders;
 
 import android.os.Bundle;
 
