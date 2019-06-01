@@ -16,9 +16,13 @@ class _MapWidgetState extends State<MapWidget> {
   Widget build(BuildContext context) {
     List<Event> events = state.getEventList();
     Set<Marker> markers = Set();
-    events.forEach((element) {
-      markers.add(
-          Marker(markerId: MarkerId(element.id), position: element.location));
+    events?.forEach((element) {
+      markers.add(Marker(
+          markerId: MarkerId(element.id),
+          position: element.location,
+          onTap: () {
+            Navigator.of(context).push(EventDetailScreen(element));
+          }));
     });
     return ChangeNotifierProvider<ApplicationState>(
         builder: (_) => state,

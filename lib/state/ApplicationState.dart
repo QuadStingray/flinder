@@ -37,7 +37,6 @@ class ApplicationState with ChangeNotifier {
   }
 
   List<Event> getEventList() {
-
-    return Event.sampleEvents;
+    return _db.findAllEvents();
   }
 }

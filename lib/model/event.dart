@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:geoflutterfire/geoflutterfire.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
@@ -39,6 +40,24 @@ class Event {
         tags: json['tags']);
   }
 
+  factory Event.fromFirestore(DocumentSnapshot doc) {
+    Map json = doc.data;
+    GeoPoint geoPoint = json['position']['geopoint'];
+    LatLng latLng = LatLng(geoPoint.latitude, geoPoint.longitude);
+
+    return Event(
+        id: doc.documentID,
+        title: json['title'],
+        location: latLng,
+        startTime: json['startTime'],
+        endTime: json['endTime'],
+        description: json['description'],
+        source: json['source'],
+        externalId: json['externalId'],
+        externalUrl: json['externalUrl'],
+        tags: json['tags']);
+  }
+
   Map<String, dynamic> toJson() {
     GeoFirePoint point = GeoFirePoint(location.latitude, location.longitude);
 
@@ -56,30 +75,30 @@ class Event {
     };
   }
 
-  static List<Event> sampleEvents = [
-    Event(
-        id: "1234",
-        title: "Awesome Flutter",
-        location: LatLng(49.78951644897461, 9.980087280273438),
-        startTime: DateTime.parse("2019-07-23 18:00:00Z"),
-        endTime: DateTime.parse("2019-07-23 23:00:00Z"),
-        description:
-            "Awesome Flutter in Würzburg",
-        source: "meetup",
-        externalId: "261446017",
-        externalUrl: "https://www.meetup.com/de-DE",
-        tags: ["google", "flutter"]),
-    Event(
-        id: "45678",
-        title: "Flutter by Example",
-        location: LatLng(49.7975959777832, 9.928215026855469),
-        startTime: DateTime.parse("2019-08-21 19:00:00Z"),
-        endTime: DateTime.parse("2019-08-21 22:00:00Z"),
-        description:
-        "Flutter Samples explained.",
-        source: "meetup",
-        externalId: "25243523",
-        externalUrl: "https://www.meetup.com/de-DE",
-        tags: ["flutter", "coding"])
-  ];
+//  static List<Event> sampleEvents = [
+//    Event(
+//        id: "1234",
+//        title: "Awesome Flutter",
+//        location: LatLng(49.78951644897461, 9.980087280273438),
+//        startTime: DateTime.parse("2019-07-23 18:00:00Z"),
+//        endTime: DateTime.parse("2019-07-23 23:00:00Z"),
+//        description:
+//            "Awesome Flutter in Würzburg",
+//        source: "meetup",
+//        externalId: "261446017",
+//        externalUrl: "https://www.meetup.com/de-DE",
+//        tags: ["google", "flutter"]),
+//    Event(
+//        id: "45678",
+//        title: "Flutter by Example",
+//        location: LatLng(49.7975959777832, 9.928215026855469),
+//        startTime: DateTime.parse("2019-08-21 19:00:00Z"),
+//        endTime: DateTime.parse("2019-08-21 22:00:00Z"),
+//        description:
+//        "Flutter Samples explained.",
+//        source: "meetup",
+//        externalId: "25243523",
+//        externalUrl: "https://www.meetup.com/de-DE",
+//        tags: ["flutter", "coding"])
+//  ];
 }

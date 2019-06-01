@@ -10,14 +10,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   geoflutterfire:
 
   #  firebase_auth:
 
   location: ^1.4.1
+
   google_maps_flutter: ^0.3.0+2
+
   cloud_firestore: 0.8.2+3
+
   provider:
 
   cupertino_icons: ^0.1.2
