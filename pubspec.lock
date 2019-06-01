@@ -67,8 +67,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
-  intl:
-    dependency: transitive
   google_maps_flutter:
     dependency: "direct main"
     description:
@@ -132,7 +130,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.20.0"
-    version: "2.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
