@@ -3,7 +3,6 @@ import 'package:flinder/model/user.dart';
 import 'package:flutter/foundation.dart';
 
 class ApplicationState with ChangeNotifier {
-
   ApplicationState();
 
   bool _isFetchingEventData = false;
@@ -13,7 +12,7 @@ class ApplicationState with ChangeNotifier {
     _isFetchingEventData = true;
     notifyListeners();
 
-   // todo
+    // todo
 
     _isFetchingEventData = false;
     notifyListeners();
@@ -29,13 +28,7 @@ class ApplicationState with ChangeNotifier {
     notifyListeners();
   }
 
-  List<User> getUserList() {
+  List<User> getUserList() {}
 
-  }
-
-  List<Event> getEventList() {
-
-  }
-
-
-  }
+  List<Event> getEventList() {}
+}
