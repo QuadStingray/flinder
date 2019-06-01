@@ -1,4 +1,4 @@
-# flinder
+# flanders
 
 A new Flutter application.
 
