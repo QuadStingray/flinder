@@ -1,9 +1,13 @@
 import 'package:flanders/model/event.dart';
 import 'package:flanders/model/user.dart';
+import 'package:flanders/service/Database.dart';
 import 'package:flutter/foundation.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ApplicationState with ChangeNotifier {
   ApplicationState();
+  var _db = DatabaseService();
+
 
   bool _isFetchingEventData = false;
   bool _isFetchingUserData = false;
@@ -33,6 +37,7 @@ class ApplicationState with ChangeNotifier {
   }
 
   List<Event> getEventList() {
+
     return Event.sampleEvents;
   }
 }
