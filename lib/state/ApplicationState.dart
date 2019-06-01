@@ -30,5 +30,7 @@ class ApplicationState with ChangeNotifier {
 
   List<User> getUserList() {}
 
-  List<Event> getEventList() {}
+  List<Event> getEventList() {
+    return Event.sampleEvents;
+  }
 }
