@@ -1,36 +1,39 @@
 import 'package:flanders/model/event.dart';
 import 'package:flanders/state/ApplicationState.dart';
+import 'package:flanders/view/event_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 
-class MapWidget extends StatefulWidget {
-  @override
-  _MapWidgetState createState() => _MapWidgetState();
-}
-
-class _MapWidgetState extends State<MapWidget> {
-  var state = ApplicationState();
+class MapWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Event> events = state.getEventList();
+    final appState = Provider.of<ApplicationState>(context);
+    List<Event> events = appState.getEventList();
     Set<Marker> markers = Set();
-    events?.forEach((element) {
+    events.forEach((element) {
       markers.add(Marker(
           markerId: MarkerId(element.id),
           position: element.location,
           onTap: () {
-            Navigator.of(context).push(EventDetailScreen(element));
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => EventDetailScreen(element)));
           }));
     });
-    return ChangeNotifierProvider<ApplicationState>(
-        builder: (_) => state,
-        child: GoogleMap(
+
+    return Container(
+        child: appState.isFetchingEventData
+            ? CircularProgressIndicator()
+            : appState.getEventList() != null
+            ? GoogleMap(
           initialCameraPosition: CameraPosition(
-              target:
-                  events != null ? events.first.location : LatLng(0.0, 0.0)),
+              zoom: 10.0,
+              target: events.isNotEmpty
+                  ? events.first.location
+                  : LatLng(0.0, 0.0)),
           markers: markers,
-        ));
+        )
+            : Text("Press Button above to fetch data"));
   }
 }

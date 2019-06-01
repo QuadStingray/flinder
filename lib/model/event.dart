@@ -49,14 +49,17 @@ class Event {
         id: doc.documentID,
         title: json['title'],
         location: latLng,
-        startTime: (json['startTime'] as Timestamp).toDate(),
-        endTime: (json['endTime'] as Timestamp).toDate(),
+        startTime: json['startTime'] is DateTime
+            ? json['startTime']
+            : (json['startTime'] as Timestamp).toDate(),
+        endTime: json['endTime'] is DateTime
+            ? json['endTime']
+            : (json['endTime'] as Timestamp).toDate(),
         description: json['description'],
         source: json['source'],
         externalId: json['externalId'],
         externalUrl: json['externalUrl'],
-        tags: json['tags']
-    );
+        tags: json['tags']);
   }
 
   Map<String, dynamic> toJson() {

@@ -50,6 +50,7 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
                         target: userLocation,
                         zoom: 20.0,
                       ),
+                      myLocationEnabled: true,
                     ))
           ],
         ));

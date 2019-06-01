@@ -1,10 +1,10 @@
 import 'package:flanders/model/event.dart';
 import 'package:flutter/material.dart';
 
-class EventDetailPage extends StatelessWidget {
+class EventDetailScreen extends StatelessWidget {
   final Event event;
 
-  const EventDetailPage(this.event, {Key key}) : super(key: key);
+  const EventDetailScreen(this.event, {Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,18 @@ class EventDetailPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
-          children: <Widget>[Text(event.description)],
+          children: <Widget>[
+            Text(event.description),
+            SizedBox(
+              height: 16.0,
+            ),
+            Text("${event.startTime.toLocal()}"),
+            Text("${event.endTime.toLocal()}"),
+            SizedBox(
+              height: 16.0,
+            ),
+            Text(event.externalUrl),
+          ],
         ),
       ),
     );

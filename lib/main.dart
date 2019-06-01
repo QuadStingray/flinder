@@ -1,6 +1,8 @@
+import 'package:flanders/state/ApplicationState.dart';
 import 'package:flanders/view/map_widget.dart';
 import 'package:flanders/view/user_preferences/user_preferences_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +14,10 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MyHomePage(title: "Flanders",));
+        home: ChangeNotifierProvider<ApplicationState>(
+          builder: (_) => ApplicationState(),
+          child: MyHomePage(title: "Flanders"),
+        ));
   }
 }
 
@@ -28,6 +33,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    final appState = Provider.of<ApplicationState>(context);
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -37,6 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.settings),
             onPressed: () {
               gotoPreferences();
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.update),
+            onPressed: () {
+              appState.fetchEventData();
             },
           )
         ],
