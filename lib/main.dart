@@ -7,16 +7,18 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var state = Provider.of<ApplicationState>(context);
+    var state = ApplicationState();
     state.getEventList();
 
     return MaterialApp(
-      title: 'flanders',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'flanders'),
-    );
+        title: 'flanders',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: ChangeNotifierProvider<ApplicationState>(
+          builder: (_) => state,
+          child: MyHomePage(title: 'flanders'),
+        ));
   }
 }
 
