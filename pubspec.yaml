@@ -9,18 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flare_flutter:
+    path: ./Flare-Flutter/flare_flutter
 
   latlong: 0.6.1
   location: ^1.4.1
   google_maps_flutter: ^0.3.0+2
   cloud_firestore: 0.8.2+3
-  flare_flutter: 1.0.2
 
   geoflutterfire:
 
   #  firebase_auth:
-
-  cloud_firestore:
 
   provider:
 
@@ -35,5 +34,5 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/avatars/
+   - assets/avatars/
 

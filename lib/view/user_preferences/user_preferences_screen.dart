@@ -7,7 +7,7 @@ import 'package:location/location.dart';
 import "package:flare_flutter/flare_actor.dart";
 
 class UserPreferencesPage extends StatefulWidget {
-  UserPreferencesPage({Key key, this.user}) : super(key: key);
+  UserPreferencesPage({Key key, this.user}) : super(key: key) {}
 
   final String title = "User Preferences";
   final User user;
@@ -17,6 +17,27 @@ class UserPreferencesPage extends StatefulWidget {
 }
 
 class _UserPreferencesPageState extends State<UserPreferencesPage> {
+  var avatars = [
+    "assets/avatars/CowboyCoder.flr",
+    "assets/avatars/Designer.flr",
+    "assets/avatars/ProgramManager.flr",
+    "assets/avatars/Sourcerer.flr",
+    "assets/avatars/Tester.flr",
+    "assets/avatars/TheArchitect.flr",
+    "assets/avatars/TheHacker.flr",
+    "assets/avatars/TheJack.flr",
+    "assets/avatars/TheRefactorer.flr",
+  ];
+  var avatarRotationIndex = 0;
+
+  getAvatar() {
+    if (0 <= avatarRotationIndex && avatarRotationIndex < avatars.length) {
+      return avatars[avatarRotationIndex];
+    }
+    avatarRotationIndex = 0;
+    return avatars[avatarRotationIndex];
+  }
+
   TextEditingController nicknameController = TextEditingController();
   LatLng userLocation;
   var location = new Location();
@@ -24,6 +45,7 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
   @override
   void initState() {
     super.initState();
+
     initLocation();
   }
 
@@ -35,13 +57,19 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
         ),
         body: ListView(
           children: <Widget>[
-            CircleAvatar(
-              child: new FlareActor(
-                "assets/avatars/CowboyCoder.flr",
-                animation: "Build and Fade Out",
+            new GestureDetector(
+              onTap: () {
+                setState(() {
+                  avatarRotationIndex = (avatarRotationIndex == avatars.length
+                      ? 0
+                      : avatarRotationIndex + 1);
+                });
+              },
+              child: CircleAvatar(
+                child: FlareActor(getAvatar()),
+                minRadius: 80,
+                maxRadius: 120,
               ),
-              minRadius: 80,
-              maxRadius: 120,
             ),
             TextField(
               controller: nicknameController,
@@ -67,8 +95,12 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
     setState(() {
       userLocation = LatLng(map['latitude'], map['longitude']);
     });
+    avatarRotationIndex = 0;
     if (widget.user != null) {
       this.nicknameController.text = widget.user.nickname;
+      if (widget.user.avatarId != null) {
+        avatarRotationIndex = int.parse(widget.user.avatarId);
+      }
       this.nicknameController.addListener(() {
         widget.user.nickname = this.nicknameController.text;
       });
