@@ -1,3 +1,4 @@
+import 'package:flanders/service/auth_service.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -32,7 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Text("Hello world"),
+        child: RaisedButton(
+          child: Text("Google"),
+          onPressed: () => authService.googleSignIn(),
+        ),
       ),
     );
   }

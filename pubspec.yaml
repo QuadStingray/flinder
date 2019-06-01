@@ -10,9 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   latlong: 0.6.1
-  firebase_auth:
-  cloud_firestore:
-  google_sign_in:
+  firebase_auth: 0.7.0
+  cloud_firestore: 0.8.2+3
+  google_sign_in: 3.2.4
   rxdart:
 
 

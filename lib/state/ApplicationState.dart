@@ -1,5 +1,5 @@
-import 'package:flinder/model/event.dart';
-import 'package:flinder/model/user.dart';
+import 'package:flanders/model/event.dart';
+import 'package:flanders/model/user.dart';
 import 'package:flutter/foundation.dart';
 
 class ApplicationState with ChangeNotifier {

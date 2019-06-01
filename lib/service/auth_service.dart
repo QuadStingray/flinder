@@ -15,13 +15,61 @@ class AuthService {
   PublishSubject loading = PublishSubject();
 
   // constructor
-  AuthService() {}
+  AuthService() {
+    user = Observable(_auth.onAuthStateChanged);
 
-  Future<FirebaseUser> googleSignIn() async {}
+    profile = user.switchMap((FirebaseUser u) {
+      if (u != null) {
+        return _db
+            .collection('users')
+            .document(u.uid)
+            .snapshots()
+            .map((snap) => snap.data);
+      } else {
+        return Observable.just({});
+      }
+    });
+  }
 
-  void updateUserData(FirebaseUser user) async {}
+  Future<FirebaseUser> googleSignIn() async {
+    // Start
+    loading.add(true);
 
-  void signOut() {}
+    // Step 1
+    GoogleSignInAccount googleUser = await _googleSignIn.signIn();
+
+    // Step 2
+    GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+    final AuthCredential credential = GoogleAuthProvider.getCredential(
+      accessToken: googleAuth.accessToken,
+      idToken: googleAuth.idToken,
+    );
+    FirebaseUser user = await _auth.signInWithCredential(credential);
+
+    // Step 3
+    //updateUserData(user); TODO
+
+    // Done
+    loading.add(false);
+    print("signed in " + user.displayName);
+    return user;
+  }
+
+  void updateUserData(FirebaseUser user) async {
+    DocumentReference ref = _db.collection('users').document(user.uid);
+
+    return ref.setData({
+      'uid': user.uid,
+      'email': user.email,
+      'photoURL': user.photoUrl,
+      'displayName': user.displayName,
+      'lastSeen': DateTime.now()
+    }, merge: true);
+  }
+
+  void signOut() {
+    _auth.signOut();
+  }
 }
 
 final AuthService authService = AuthService();
