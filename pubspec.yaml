@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flare_flutter:
+    path: ./Flare-Flutter/flare_flutter
 
   geoflutterfire:
 
@@ -33,5 +35,5 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/avatars/
+   - assets/avatars/
 
