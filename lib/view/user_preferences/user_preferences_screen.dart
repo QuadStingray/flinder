@@ -1,10 +1,7 @@
 import 'package:flanders/model/user.dart';
+import "package:flare_flutter/flare_actor.dart";
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:location/location.dart';
-
-import "package:flare_flutter/flare_actor.dart";
 
 class UserPreferencesPage extends StatefulWidget {
   UserPreferencesPage({Key key, this.user}) : super(key: key) {}
@@ -39,14 +36,22 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
   }
 
   TextEditingController nicknameController = TextEditingController();
-  LatLng userLocation;
-  var location = new Location();
 
   @override
   void initState() {
     super.initState();
+    avatarRotationIndex = 0;
 
-    initLocation();
+    if (widget.user != null) {
+      if (widget.user.avatarId != null) {
+        avatarRotationIndex = int.parse(widget.user.avatarId);
+      }
+      this.nicknameController.text = widget.user.nickname;
+      this.nicknameController.addListener(() {
+        widget.user.nickname = this.nicknameController.text;
+      });
+    }
+
   }
 
   @override
@@ -75,37 +80,9 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
               controller: nicknameController,
               decoration: InputDecoration(labelText: 'Nickname'),
             ),
-            Container(
-                height: MediaQuery.of(context).size.height,
-                width: MediaQuery.of(context).size.width,
-                child: userLocation == null
-                    ? Center(child: CircularProgressIndicator())
-                    : GoogleMap(
-                        initialCameraPosition: CameraPosition(
-                          target: userLocation,
-                          zoom: 20.0,
-                        ),
-                      ))
+
           ],
         ));
   }
 
-  void initLocation() async {
-  avatarRotationIndex = 0;
-
-    var map = await location.getLocation();
-    setState(() {
-      userLocation = LatLng(map['latitude'], map['longitude']);
-    });
-    if (widget.user != null) {
-  if (widget.user.avatarId != null) {
-  avatarRotationIndex = int.parse(widget.user.avatarId);
-  }
-  }
-      this.nicknameController.text = widget.user.nickname;
-      this.nicknameController.addListener(() {
-        widget.user.nickname = this.nicknameController.text;
-      });
-    }
-  }
 }

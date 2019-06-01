@@ -9,14 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flare_flutter:
-    path: ./Flare-Flutter/flare_flutter
 
   geoflutterfire:
 
   #  firebase_auth:
 
   location: ^1.4.1
+  flare_flutter: 1.0.2
 
   google_maps_flutter: ^0.3.0+2
 
