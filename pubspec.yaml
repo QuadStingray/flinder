@@ -10,8 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   latlong: 0.6.1
-  location:
-  google_maps_flutter:
+  location: ^1.4.1
+  google_maps_flutter: ^0.3.0+2
   cloud_firestore: 0.8.2+3
 
 
