@@ -1,24 +1,18 @@
-import 'package:flanders/state/ApplicationState.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var state = ApplicationState();
-    state.getEventList();
+
 
     return MaterialApp(
         title: 'flanders',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ChangeNotifierProvider<ApplicationState>(
-          builder: (_) => state,
-          child: MyHomePage(title: 'flanders'),
-        ));
+        home: MapWidget());
   }
 }
 
@@ -37,10 +31,24 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[
+          // action button
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: () {
+              gotoPreferences();
+            },
+          )
+        ],
       ),
-      body: Center(
-        child: Text("Hello world"),
-      ),
+      body: Center(),
+    );
+  }
+
+  void gotoPreferences() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => UserPreferencesPage()),
     );
   }
 }
