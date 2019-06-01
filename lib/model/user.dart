@@ -32,4 +32,19 @@ class User {
       'avatarId': avatarId
     };
   }
+
+  static List<User> sampleUser = [
+    User(
+        id: "_userId_1234567",
+        nickname: "User Number 1",
+        email: "user@mee.com",
+        location: LatLng(49.7975, 49.7975),
+        avatarId: "CowboyCoder.flr"),
+    User(
+        id: "_userId_987654321",
+        nickname: "User Number 2",
+        email: "user2@mee.com",
+        location: LatLng(49.7975, 49.7975),
+        avatarId: "Sourcerer.flr")
+  ];
 }

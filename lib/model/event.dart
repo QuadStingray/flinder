@@ -9,6 +9,7 @@ class Event {
   String description;
   String source;
   String externalId;
+  String externalUrl;
   List<String> tags;
 
   Event(
@@ -20,6 +21,7 @@ class Event {
       this.description,
       this.source,
       this.externalId,
+      this.externalUrl,
       this.tags});
 
   factory Event.fromJson(Map<String, dynamic> json) {
@@ -32,6 +34,7 @@ class Event {
         description: json['description'],
         source: json['source'],
         externalId: json['externalId'],
+        externalUrl: json['externalUrl'],
         tags: json['tags']);
   }
 
@@ -45,6 +48,7 @@ class Event {
       'description': description,
       'source': source,
       'externalId': externalId,
+      'externalUrl': externalUrl,
       'tags': tags
     };
   }
