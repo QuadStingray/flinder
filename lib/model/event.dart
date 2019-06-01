@@ -64,6 +64,7 @@ class Event {
             "Awesome Flutter in Würzburg",
         source: "meetup",
         externalId: "261446017",
+        externalUrl: "https://www.meetup.com/de-DE",
         tags: ["google", "flutter"]),
     Event(
         id: "45678",
@@ -75,6 +76,7 @@ class Event {
         "Flutter Samples explained.",
         source: "meetup",
         externalId: "25243523",
+        externalUrl: "https://www.meetup.com/de-DE",
         tags: ["flutter", "coding"])
   ];
 }
