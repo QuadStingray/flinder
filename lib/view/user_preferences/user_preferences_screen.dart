@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 
-import 'avatar.dart';
+import "package:flare_flutter/flare_actor.dart";
 
 class UserPreferencesPage extends StatefulWidget {
   UserPreferencesPage({Key key, this.user}) : super(key: key);
@@ -35,22 +35,29 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
         ),
         body: ListView(
           children: <Widget>[
-            Avatar(),
+            CircleAvatar(
+              child: new FlareActor(
+                "assets/avatars/CowboyCoder.flr",
+                animation: "Build and Fade Out",
+              ),
+              minRadius: 80,
+              maxRadius: 120,
+            ),
             TextField(
               controller: nicknameController,
               decoration: InputDecoration(labelText: 'Nickname'),
             ),
-            userLocation == null
-                ? CircularProgressIndicator()
-                : Container(
-                    height: MediaQuery.of(context).size.height / 2,
-                    width: MediaQuery.of(context).size.width,
-                    child: GoogleMap(
-                      initialCameraPosition: CameraPosition(
-                        target: userLocation,
-                        zoom: 20.0,
-                      ),
-                    ))
+            Container(
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width,
+                child: userLocation == null
+                    ? Center(child: CircularProgressIndicator())
+                    : GoogleMap(
+                        initialCameraPosition: CameraPosition(
+                          target: userLocation,
+                          zoom: 20.0,
+                        ),
+                      ))
           ],
         ));
   }
