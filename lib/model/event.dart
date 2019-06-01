@@ -1,7 +1,7 @@
 import 'package:latlong/latlong.dart';
 
 class Event {
-  final String id;
+  String id;
   String title;
   LatLng location;
   DateTime startTime;
