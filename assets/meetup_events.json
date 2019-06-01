@@ -1,0 +1,1018 @@
+{
+  "city": {
+    "id": 1007752,
+    "city": "Würzburg",
+    "lat": 49.8,
+    "lon": 9.94,
+    "state": "",
+    "country": "de",
+    "zip": "meetup55",
+    "member_count": 53
+  },
+  "events": [
+    {
+      "created": 1557825802000,
+      "duration": 7200000,
+      "id": "261446017",
+      "name": "6. Meetup #smartwue",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1563897600000,
+      "local_date": "2019-07-23",
+      "local_time": "18:00",
+      "updated": 1557826239000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 7,
+      "venue": {
+        "id": 25843823,
+        "name": "Zentrum für Digitale Innovationen (ZDI) Mainfranken",
+        "lat": 49.78951644897461,
+        "lon": 9.980087280273438,
+        "repinned": true,
+        "address_1": "Rottendorfer Straße 71",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1545413115000,
+        "name": "Smart City Würzburg",
+        "id": 30748995,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "smartwue",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/smartwue/events/261446017/",
+      "description": "<p>Einladung zum sechsten Meetup zum Thema Smart City Würzburg.<br/>Jeder ist jederzeit herzlich willkommen am Meetup teilzunehmen, gerne auch Quereinsteiger. Wir tauschen uns im Ideenlabor des ZDI Mainfranken darüber aus, was eine Stadt "
+      smart
+      ", lebenswert und bürgerfreundlich macht.<br/>Bei unseren Treffen wird die AG der Stadt und einzelne Mitglieder kurz vorstellen, was in den vergangenen Wochen im Arbeitskreis Smart City geschehen ist und was als nächstes geplant ist. Im Anschluss daran folgt ein kurzer Impulsvortrag zu einem ausgewählten Thema rund um den Bereich Smart City.<br/>Insbesondere sind wir wie immer auch neugierig auf Eure Ideen, Vorstellungen und Wünsche und freuen uns auf Euren Input zum Thema Smart City Würzburg.</p> <p>Ablauf Meetup #smartwue</p> <p>18:00 Uhr Ankommen bei Brezel &amp; Bier<br/>18:30 Uhr Impulsvortrag (wird noch bekanntgegeben)<br/>19.00 Uhr Austausch &amp; Diskussion</p> <p>Wir freuen uns auf dich!<br/>Das SmartWue-Team</p> ",
+      "visibility": "public"
+    },
+    {
+      "created": 1537346357000,
+      "duration": 7200000,
+      "id": "mxjggqyzjbxb",
+      "name": "WP Meetup Würzburg",
+      "rsvp_limit": 20,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1560877200000,
+      "local_date": "2019-06-18",
+      "local_time": "19:00",
+      "updated": 1557741651000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 4,
+      "venue": {
+        "id": 26381322,
+        "name": "ZDI Würzburg",
+        "lat": 49.790348052978516,
+        "lon": 9.968696594238281,
+        "repinned": false,
+        "address_1": "Rottendorfer Straße 71",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1463151748000,
+        "name": "WPMeetup Würzburg",
+        "id": 19948564,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wuerzburg-WordPress-Meetup",
+        "who": "Teilnehmer",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wuerzburg-WordPress-Meetup/events/mxjggqyzjbxb/",
+      "description": "<p>folgt ...</p> ",
+      "visibility": "public",
+      "pro_is_email_shared": false
+    },
+    {
+      "created": 1537346357000,
+      "duration": 7200000,
+      "id": "mxjggqyzkbvb",
+      "name": "WP Meetup Würzburg",
+      "rsvp_limit": 20,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1563296400000,
+      "local_date": "2019-07-16",
+      "local_time": "19:00",
+      "updated": 1557741680000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26381322,
+        "name": "ZDI Würzburg",
+        "lat": 49.790348052978516,
+        "lon": 9.968696594238281,
+        "repinned": false,
+        "address_1": "Rottendorfer Straße 71",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1463151748000,
+        "name": "WPMeetup Würzburg",
+        "id": 19948564,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wuerzburg-WordPress-Meetup",
+        "who": "Teilnehmer",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wuerzburg-WordPress-Meetup/events/mxjggqyzkbvb/",
+      "description": "<p>folgt ...</p> ",
+      "visibility": "public",
+      "pro_is_email_shared": false
+    },
+    {
+      "created": 1553695111000,
+      "duration": 7200000,
+      "fee": {
+        "accepts": "cash",
+        "amount": 16,
+        "currency": "EUR",
+        "description": "",
+        "label": "Preis",
+        "required": false
+      },
+      "id": "260114121",
+      "name": "Der BVMW als Chance für Unternehmer in Franken",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1561566600000,
+      "local_date": "2019-06-26",
+      "local_time": "18:30",
+      "updated": 1553695122000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 25908354,
+        "name": "Mondelli Studio",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": false,
+        "address_1": "Pleicherkirchplatz 15",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1493880918000,
+        "name": "be content business branding MeetUp",
+        "id": 23582283,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "be-content-business-branding-MeetUp",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/be-content-business-branding-MeetUp/events/260114121/",
+      "description": "<p>Der BVMW als Chance für Unternehmer in Main-Franken</p> <p>Der Bundesverband mittelständische Wirtschaft (BVMW) ist die größte, freiwillig organisierte und branchenübergreifende Interessenvereinigung des deutschen Mittelstands in Deutschland.</p> <p>Er vertritt im Rahmen der Mittelstandsallianz die gemeinsamen wirtschaftlichen, sozialen und gesellschaftspolitischen Interessen von 32 Arbeitgeber- und Wirtschaftsverbänden mit mehr als[masked] Mitgliedern. So erhält der BVMW den Freiraum für wirtschaftliches Handeln und sichern gleichzeitig den sozialen Frieden.</p> <p>In Mainfranken betreuen aktuell drei Beauftragten des BVMW die Mitglieder. In Würzburg ist das Stephan Behringer, der am Mittwoch, 26. Juni 2019, das „Mittelstands-Netzwerk“ im Rahmen unseres Meetups persönlich vorstellt.</p> <p>Der BVMW Mainfranken organisiert in 2019 in Eigenregie oder zusammen mit Mitgliedern und Partnern rund 50 kleine und größere Veranstaltung in der Region.</p> <p>Dieser Abend ist nicht nur ein Abend rund um den Verband BVMW, sondern auch ein Event für alle, die rund um das Thema Verkaufen und damit auch Branding (Markenbildung/Marke) aktiv sind.</p> <p>Der Unkostenbeitrag beträgt 16,00 Euro inkl. MwSt. pro Person, da ein leckeres und frisches Catering der Firma Der Esswagen sowie Softdrinks gereicht werden.</p> <p>Zudem bietet Dir das be content Meetup:</p> <p>leckeres, frisches Catering und Softdrinks</p> <p>offenes Networking</p> <p>kostenfreier Erfahrungs- und Informationsaustausch unter Geschäftsleuten, Gründern und Newcomern</p> <p>Vorstellungsrunde, Üben des Elevator Pitch, Visitenkartentausch</p> <p>eine gute Diskussionsrunde auf Augenhöhe</p> <p>Unsere Abend-Business-Meetups finden jeden Monat statt. Sie sind bewußt im kleinen Rahmen gehalten, um einen Austausch, ein Üben einzelner Branding-Aspekte zu ermöglichen.</p> <p>Die nächsten Termine gehen gerade online auf www.be-content.de im Mondelli Fotostudio angesetzt. Die Liste aller Events wird rechtzeitig bekannt gegeben. Wer möchte, kann sich dazu in unserem Newsletter eintragen. So verpasst Du kein Event.</p> <p>Wir haben 20 Plätze und freuen uns sehr auf Euch.<br/>Hier der Link zur Anmeldung: <a href="
+      https: //www.eventbrite.de/e/der-bvmw-als-chance-fur-unternehmer-in-franken-tickets-54646063848" class="linkified">https://www.eventbrite.de/e/der-bvmw-als-chance-fur-unternehmer-in-franken-tickets-54646063848</a></p> <p>Eure Verena Ullmann von be content Branding und Onlinemarketing</p> <p>und Regina Hahn von Mondelli Studio</p> <p>be content Branding und Onlinemarketing | Reisgrube 5 | 97261 Güntersleben bei Würzburg | [masked]</p> ",
+      "visibility"
+      :
+      "public"
+    },
+    {
+      "created": 1553695565000,
+      "duration": 7200000,
+      "fee": {
+        "accepts": "cash",
+        "amount": 16,
+        "currency": "EUR",
+        "description": "",
+        "label": "Preis",
+        "required": false
+      },
+      "id": "260114258",
+      "name": "Schwierig sind immer die anderen! Wieso ein Perspektivenwechsel voran bringt",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1563382800000,
+      "local_date": "2019-07-17",
+      "local_time": "19:00",
+      "updated": 1553695565000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 25908354,
+        "name": "Mondelli Studio",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": false,
+        "address_1": "Pleicherkirchplatz 15",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1493880918000,
+        "name": "be content business branding MeetUp",
+        "id": 23582283,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "be-content-business-branding-MeetUp",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/be-content-business-branding-MeetUp/events/260114258/",
+      "description": "<p>Schwierig sind immer die anderen</p> <p>Deine Mitmenschen kannst Du Dir nicht immer aussuchen. Zu manchen Personen hast Du sofort einen guten Draht und verstehst Dich blendend. Und dann gibt es da die anderen – schwierigen – Zeitgenossen. Es kommt zu Missverständnissen oder gar persönlichen Verletzungen. Du hast Deine individuellen Bedürfnisse, Sichtweisen und Dein typisches Verhalten – Dein Gegenüber ebenfalls. Die Lösung ist ein Perspektivenwechsel. Reflektiere Dich selbst, lerne Deine eigenen Stärken und Begrenzungen besser kennen. Sieh durch die Augen des Anderen, entwickle mehr Verständnis für ihn. Das eröffnet neue Wege für Deinen persönlichen und beruflichen Erfolg und macht Dir das Leben leichter.</p> <p>Freut Euch auf Ute Herzog, staatlich geprüfte Betriebswirtin, Rednerin, Business Coach, lizenzierte Structogram®- und Triogram®-Trainerin, lizenzierte Trainerin für Stressprävention und Burnout-Beraterin. Galant, sanft, eindringlich und gekonnt wird sie Deine Perspektive verändern.</p> <p>Dieser Abend ist nicht nur ein Abend rund um das Thema Perspektivenwechsel, sondern auch ein Event für alle, die rund um das Thema Verkaufen und damit auch Branding (Markenbildung/Marke) aktiv sind.</p> <p>Der Unkostenbeitrag beträgt 16,00 Euro inkl. MwSt. pro Person, da ein leckeres und frisches Catering der Firma Der Esswagen sowie Softdrinks gereicht werden.</p> <p>Zudem bietet Dir das be content Meetup:</p> <p>leckeres, frisches Catering und Softdrinks</p> <p>offenes Networking</p> <p>kostenfreier Erfahrungs- und Informationsaustausch unter Geschäftsleuten, Gründern und Newcomern</p> <p>Vorstellungsrunde, Üben des Elevator Pitch, Visitenkartentausch</p> <p>eine gute Diskussionsrunde auf Augenhöhe</p> <p>Unsere Abend-Business-Meetups finden jeden Monat statt. Sie sind bewußt im kleinen Rahmen gehalten, um einen Austausch, ein Üben einzelner Branding-Aspekte zu ermöglichen.</p> <p>Die nächsten Termine gehen gerade online auf www.be-content.de im Mondelli Fotostudio angesetzt. Die Liste aller Events wird rechtzeitig bekannt gegeben. Wer möchte, kann sich dazu in unserem Newsletter eintragen. So verpasst Du kein Event.</p> <p>Wir haben 20 Plätze und freuen uns sehr auf Euch. Hier der Link zur verbindlichen Anmeldung: <a href="
+      https: //www.eventbrite.de/e/schwierig-sind-immer-die-anderen-wieso-ein-perspektivenwechsel-dich-voran-bringt-tickets-54651491081" class="linkified">https://www.eventbrite.de/e/schwierig-sind-immer-die-anderen-wieso-ein-perspektivenwechsel-dich-voran-bringt-tickets-54651491081</a></p> <p>Eure Verena Ullmann von be content Branding und Onlinemarketing</p> <p>und Regina Hahn von Mondelli Studio</p> <p>be content Branding und Onlinemarketing | Reisgrube 5 | 97261 Güntersleben bei Würzburg | [masked]</p> ",
+      "visibility"
+      :
+      "public"
+    },
+    {
+      "created": 1553695766000,
+      "duration": 7200000,
+      "fee": {
+        "accepts": "cash",
+        "amount": 16,
+        "currency": "EUR",
+        "description": "",
+        "label": "Preis",
+        "required": false
+      },
+      "id": "260114306",
+      "name": "Der Story Code: Warum Storytelling Mehrwert verkauft!",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1564677000000,
+      "local_date": "2019-08-01",
+      "local_time": "18:30",
+      "updated": 1553695847000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 25908354,
+        "name": "Mondelli Studio",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": true,
+        "address_1": "Pleicherkirchplatz 15",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1493880918000,
+        "name": "be content business branding MeetUp",
+        "id": 23582283,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "be-content-business-branding-MeetUp",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/be-content-business-branding-MeetUp/events/260114306/",
+      "description": "<p>Der Story Code: Warum Storytelling Mehrwert verkauft!<br/>mit Oliver Grythmann von Candid Rhetorics</p> <p>Storytelling ist "
+      in
+      ", aber wie erzählen Unternehmen eigentlich Geschichten für Produkte, ohne in Kitsch oder doch wieder in "
+      Verkäufer-Sprech
+      " abzugleiten? In seinem Vortrag zeigt Oliver Grytzmann Ausschnitte aus seiner Arbeit, deutet auf unverzichtbare "
+      Must-Haves
+      " im Business-Storytelling hin und führt vor, wie Stories von Grund auf konkret erzählt werden können.</p> <p>Am Ziel des Vortrages sind die Hörer mit dem Rüstzeug ausgestattet, selbst erste Mini-Stories für ihr Business zu erzählen.</p> <p>Freut Euch auf Oliver Grytzmann. Er steht seit 10 Jahren sowohl auf der Theater- als auch auf der Rednerbühne und arbeitet als Gründer von Candid Rhetorics, zusammen mit seiner Geschäftspartnerin, im Bereich Storytelling für den Vertrieb.</p> <p>Dieser Abend ist nicht nur ein Abend rund um das Thema Storytelling, sondern auch ein Event für alle, die rund um das Thema Verkaufen und damit auch Branding (Markenbildung/Marke) aktiv sind.</p> <p>Der Unkostenbeitrag beträgt 16,00 Euro inkl. MwSt. pro Person, da ein leckeres und frisches Catering der Firma Der Esswagen sowie Softdrinks gereicht werden.</p> <p>Zudem bietet Dir das be content Meetup:</p> <p>leckeres, frisches Catering und Softdrinks</p> <p>offenes Networking</p> <p>kostenfreier Erfahrungs- und Informationsaustausch unter Geschäftsleuten, Gründern und Newcomern</p> <p>Vorstellungsrunde, Üben des Elevator Pitch, Visitenkartentausch</p> <p>eine gute Diskussionsrunde auf Augenhöhe</p> <p>Unsere Abend-Business-Meetups finden jeden Monat statt. Sie sind bewußt im kleinen Rahmen gehalten, um einen Austausch, ein Üben einzelner Branding-Aspekte zu ermöglichen.</p> <p>Die nächsten Termine gehen gerade online auf www.be-content.de im Mondelli Fotostudio angesetzt. Die Liste aller Events wird rechtzeitig bekannt gegeben. Wer möchte, kann sich dazu in unserem Newsletter eintragen. So verpasst Du kein Event.</p> <p>Wir haben 20 Plätze und freuen uns sehr auf Euch. Hier der Link zur verbindlichen Anmeldung: <a href="
+      https: //www.eventbrite.de/e/der-story-code-warum-storytelling-mehrwert-verkauft-tickets-54661102830" class="linkified">https://www.eventbrite.de/e/der-story-code-warum-storytelling-mehrwert-verkauft-tickets-54661102830</a></p> <p>Eure Verena Ullmann von be content Branding und Onlinemarketing</p> <p>und Regina Hahn von Mondelli Studio</p> <p>be content Branding und Onlinemarketing | Reisgrube 5 | 97261 Güntersleben bei Würzburg | [masked]</p> ",
+      "visibility"
+      :
+      "public"
+    },
+    {
+      "created": 1543600601000,
+      "duration": 7200000,
+      "id": "jnkrmqyzjbwb",
+      "name": "Würzburg Toastmasters Treffen / Würzburg Toastmasters Meeting",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1561395600000,
+      "local_date": "2019-06-24",
+      "local_time": "19:00",
+      "updated": 1543600928000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26004457,
+        "name": "Mondelli Studio - Regina Hahn ",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": true,
+        "address_1": "Pleicherkirchplatz 15 ",
+        "address_2": "Direkt an der Kirche ",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1519064635000,
+        "name": "Würzburg Toastmasters",
+        "id": 27576460,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wurzburg-Toasmasters",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wurzburg-Toasmasters/events/jnkrmqyzjbwb/",
+      "description": "<p>• Was wir unternehmen werden<br/>Clubtreffen der Würzburg Toastmasters mit vorbereiteten Reden, Stegreifreden und Redebewertungen. Gäste sind jederzeit willkommen!</p> <p>Club Meeting of Würzburg Toastmasters with prepared speeches, impromptu speeches, and speech evaluations. Guests are always welcome!</p> <p>• Was sollst du mitbringen</p> <p>• Wichtig zu wissen</p> ",
+      "how_to_find_us": "Neben der Kirche - Next to the church ",
+      "visibility": "public"
+    },
+    {
+      "created": 1543600601000,
+      "duration": 7200000,
+      "id": "jnkrmqyzkbcb",
+      "name": "Würzburg Toastmasters Treffen / Würzburg Toastmasters Meeting",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1562605200000,
+      "local_date": "2019-07-08",
+      "local_time": "19:00",
+      "updated": 1543601204000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26004457,
+        "name": "Mondelli Studio - Regina Hahn ",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": true,
+        "address_1": "Pleicherkirchplatz 15 ",
+        "address_2": "Direkt an der Kirche ",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1519064635000,
+        "name": "Würzburg Toastmasters",
+        "id": 27576460,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wurzburg-Toasmasters",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wurzburg-Toasmasters/events/jnkrmqyzkbcb/",
+      "description": "<p>• Was wir unternehmen werden<br/>Clubtreffen der Würzburg Toastmasters mit vorbereiteten Reden, Stegreifreden und Redebewertungen. Gäste sind jederzeit willkommen!</p> <p>Club Meeting of Würzburg Toastmasters with prepared speeches, impromptu speeches, and speech evaluations. Guests are always welcome!</p> <p>• Was sollst du mitbringen</p> <p>• Wichtig zu wissen</p> ",
+      "how_to_find_us": "Neben der Kirche - Next to the church ",
+      "visibility": "public"
+    },
+    {
+      "created": 1543600601000,
+      "duration": 7200000,
+      "id": "jnkrmqyzkbtb",
+      "name": "Würzburg Toastmasters Treffen / Würzburg Toastmasters Meeting",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1563814800000,
+      "local_date": "2019-07-22",
+      "local_time": "19:00",
+      "updated": 1543601226000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26004457,
+        "name": "Mondelli Studio - Regina Hahn ",
+        "lat": 49.7975959777832,
+        "lon": 9.928215026855469,
+        "repinned": true,
+        "address_1": "Pleicherkirchplatz 15 ",
+        "address_2": "Direkt an der Kirche ",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1519064635000,
+        "name": "Würzburg Toastmasters",
+        "id": 27576460,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wurzburg-Toasmasters",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wurzburg-Toasmasters/events/jnkrmqyzkbtb/",
+      "description": "<p>• Was wir unternehmen werden<br/>Clubtreffen der Würzburg Toastmasters mit vorbereiteten Reden, Stegreifreden und Redebewertungen. Gäste sind jederzeit willkommen!</p> <p>Club Meeting of Würzburg Toastmasters with prepared speeches, impromptu speeches, and speech evaluations. Guests are always welcome!</p> <p>• Was sollst du mitbringen</p> <p>• Wichtig zu wissen</p> ",
+      "how_to_find_us": "Neben der Kirche - Next to the church ",
+      "visibility": "public"
+    },
+    {
+      "created": 1537365802000,
+      "duration": 10800000,
+      "id": "kwrggqyzjbhb",
+      "name": "Gibt es ein aktives Tagesgeldkonto mit garantierten 8% Netto Rendite.",
+      "rsvp_limit": 12,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1559746800000,
+      "local_date": "2019-06-05",
+      "local_time": "17:00",
+      "updated": 1537365802000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "group": {
+        "created": 1537357495000,
+        "name": "smart-Forex LTD",
+        "id": 29870952,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "smart-Forex-LTD",
+        "who": "smart-FOREX Partner",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/smart-Forex-LTD/events/kwrggqyzjbhb/",
+      "description": "<p>Ich zeige auf wie es geht und rede über Insider Wissen von der Börse.</p> ",
+      "visibility": "public"
+    },
+    {
+      "created": 1559244434000,
+      "duration": 10800000,
+      "id": "261905794",
+      "name": "16. Krypto-Stammtisch Würzburg",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1559752200000,
+      "local_date": "2019-06-05",
+      "local_time": "18:30",
+      "updated": 1559292396000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 25874711,
+        "name": "Pizzeria La Pineta",
+        "lat": 49.780517578125,
+        "lon": 9.962430953979492,
+        "repinned": true,
+        "address_1": "Zeppelinstraße 116",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1521362740000,
+        "name": "Krypto - Unterfranken (Stammtisch-Blockchain & co.)",
+        "id": 27865205,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "KryptoUnterfranken",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/KryptoUnterfranken/events/261905794/",
+      "description": "<p>Nach zweimonatiger Pause starten wir wieder unsere monatlichen Stammtischtreffen!</p> <p>Wie bei den bisherigen Treffen auch, soll dieser Abend eine lockere, gesellige Runde bieten, in welcher wir uns über Informationen, aktuelle Entwicklungen, Neuigkeiten oder auch Problemen und ihren Lösungen austauschen wollen, ebenso Basics.</p> <p>Das Treffen richtet sich daher an alle Krypto-Interessierte jeglichen Alters und Kenntnisstandes: Jeder ist bei unserem Austausch willkommen!</p> <p>Thematisch wollen wir aber auch unser Programm für das 2. Halbjahr 2019 besprechen: Unter welchen Themenschwerpunkte wollen wir uns Events im 2. Halbjahr 2019 setzen? Bringt gerne Vorschläge zu Themen mit, die wir im nächsten Jahr mal besprechen oder gar anhören sollen.</p> <p>ORGANISATORISCHES<br/>Zwecks Planung: Sofern ihr vorhabt zu kommen bitten wir euch, euch hier auf Meetup für dieses Event einzuschreiben.<br/>Fest geplant ist ein Treffen in der Pizzeria La Pineta.<br/>Sollten Änderungen eintreten, werden wir dies spätestens 24 Stunden vor Beginn bekannt geben.</p> <p>Vom Hauptbahnhof / Zentrum gäbe es im Übrigen eine Mitfahrgelegenheit zum Hubland rauf. Bei Interesse bitte in der WhatsApp- bzw. Telegram-Gruppe anfragen. Falls nicht möglich, einfach dem Organisator eine Mail zukommen lassen.</p> ",
+      "how_to_find_us": "Einfach nach dem Krypto-Stammtisch fragen... :-)",
+      "visibility": "public"
+    },
+    {
+      "created": 1558937861000,
+      "duration": 7200000,
+      "id": "261797916",
+      "name": "eBPF for high performance network applications",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1559667600000,
+      "local_date": "2019-06-04",
+      "local_time": "19:00",
+      "updated": 1558937996000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 11,
+      "venue": {
+        "id": 26416209,
+        "name": "EMnify",
+        "lat": 49.78773498535156,
+        "lon": 9.967692375183105,
+        "repinned": false,
+        "address_1": "Landsteinerstraße 4",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1430042864000,
+        "name": "DevOps Würzburg Mainfranken",
+        "id": 18563985,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "DevOps-Wuerzburg-Mainfranken",
+        "who": "DevOps",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/261797916/",
+      "description": "<p>We welcome Miklós Tirpák, Senior Software Architect at EMnify in Berlin, for a deep-dive into the Linux Kernel's eBPF feature.</p> <p>We will discuss how extended Berkeley Packet Filter can be utilized to easily implement high performance network applications in the kernel hooked to eXpress Data Path and Traffic Control. We will see how the application logic can still be implemented in user space and how it can efficiently intercommunicate with the data plane using various maps provided by the kernel. Then we will talk about the lifetime of these data structures and the tools to examine them, the BPF verifier of the kernel and the limitations exposed by that. Finally, we will walk through an EMnify use case where BPF could provide high throughput for mobile data tunneling and accounting.</p> ",
+      "how_to_find_us": "1. OG, ggf. bitte klingeln",
+      "visibility": "public"
+    },
+    {
+      "created": 1558339841000,
+      "duration": 7200000,
+      "id": "261609375",
+      "name": "Scrum in teaching - teaching scrum ",
+      "rsvp_limit": 32,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1562690700000,
+      "local_date": "2019-07-09",
+      "local_time": "18:45",
+      "updated": 1558424753000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 20,
+      "venue": {
+        "id": 26156147,
+        "name": "Mayflower GmbH",
+        "lat": 49.78767395019531,
+        "lon": 9.968064308166504,
+        "repinned": true,
+        "address_1": "Landsteinerstraße 4",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1466662473000,
+        "name": "Agile Usergroup Unterfranken",
+        "id": 20105893,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Agile-Usergroup-Unterfranken",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Agile-Usergroup-Unterfranken/events/261609375/",
+      "description": "<p>Wir freuen uns Dirk Fabricius von EMnify als neuen Speaker begrüßen zu dürfen. Er wird uns über das Thema Erfahrung bzw. Einsatz von Scrum im schulischen/beruflichen Umfeld aufschlauen.</p> <p>=======================================================================</p> <p>Scrum ist kein neues Framework für komplexe Entwicklungsvorgaben, wurde allerdings in der Peripherie ständig um neue Best-practice Methoden aus verschiedensten Domänen erweitert.</p> <p>Viele der Techniken wie sie in agilen Retrospektiven eingesetzt werden bedienen sich der Erkenntnissen aus dem schulischen Unterricht, sei es "
+      Think,
+      Pair,
+      Share
+      ", die subtile Art wie der Scrum Master durch coaching trainiert (lernen durch lehren) oder die haptische Erfahrung der überall präsenten Post-its.</p> <p>Die Notwendigkeit der im Unterricht allseits geforderten Binnendifferenzierung hat der Scrum Master manchmal auch schmerzhaft erkannt, wenn verschiedene Stakeholder wie Entwicklerteams, Manager, fachfremde Abteilungen oder Kunden trainiert werden sollten.</p> <p>Parallel wird Scrum (leicht modifiziert wie z.B. in eduScrum) auch schon in Würzburg in beruflichen Schulen verwendet um das kollaborative Lernen zu unterstützen.</p> <p>Schüler lernen im Team, verteilen die Rollen und überprüfen "
+      Done
+      " selbständig. Wenn man in eine solche Klasse eintritt fällt es schwer den "
+      Product
+      Owner
+      " Lehrer ausfindig zu machen.</p> <p>=======================================================================</p> <p>Zielgruppe sind agile Teams auf der Suche nach neuen Inputs und Hintergründen sowie Lehrer auf Methodensuche.</p> <p>Skill-Level: Einsteiger<br/>Vorkenntnisse: Keine, Scrum selbst wird in den ersten Minuten wiederholt</p> ",
+      "how_to_find_us": "Das Meetup findet im zweiten Stock statt",
+      "visibility": "public"
+    },
+    {
+      "created": 1537346357000,
+      "duration": 7200000,
+      "id": "mxjggqyzlbbc",
+      "name": "WP Meetup Würzburg - Biergarten Edition",
+      "rsvp_limit": 20,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1566320400000,
+      "local_date": "2019-08-20",
+      "local_time": "19:00",
+      "updated": 1554903005000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 3,
+      "venue": {
+        "id": 26315236,
+        "name": "Waldschänke Dornheim",
+        "lat": 49.79954528808594,
+        "lon": 9.919318199157715,
+        "repinned": false,
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1463151748000,
+        "name": "WPMeetup Würzburg",
+        "id": 19948564,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Wuerzburg-WordPress-Meetup",
+        "who": "Teilnehmer",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Wuerzburg-WordPress-Meetup/events/mxjggqyzlbbc/",
+      "description": "<p>Unser Sommer-Meetup "
+      traditionell
+      " im Biergarten - ohne Thema, dafür ist es sicher viel zu heiß...einfach zusammen sein, quatschen, netzwerken, socializen, trinken,...</p> ",
+      "how_to_find_us": "Wir werden ein Shirt oder unser Wapu weit sichtbar positionieren.",
+      "visibility": "public",
+      "pro_is_email_shared": false
+    },
+    {
+      "created": 1549455142000,
+      "duration": 14400000,
+      "id": "258727109",
+      "name": "Entwickle deinen CASHFLOW-IQ in WÜRZBURG",
+      "rsvp_limit": 30,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1559579220000,
+      "local_date": "2019-06-03",
+      "local_time": "18:27",
+      "updated": 1554319444000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 11,
+      "venue": {
+        "id": 26122724,
+        "name": "Kolping-Akademie",
+        "lat": 49.796669006347656,
+        "lon": 9.93280029296875,
+        "repinned": true,
+        "address_1": "Kolpingpl. 1",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1548671193000,
+        "name": "Cashflow Squad Würzburg",
+        "id": 31030986,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Cashflow-Secrets-Squad-Wurzburg",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Cashflow-Secrets-Squad-Wurzburg/events/258727109/",
+      "description": "<p>Wir Laden Alle Herzlich Ein, Mit Uns Das Ultimative Erlebnis Mit Robert T. Kiyosaki’s CASHFLOW101® Zu Verbringen!</p> <p>Sei beim CASHFLOW-Workshop dabei und triff Gleichgesinnte.<br/>Widme dich mit CASHFLOW101® deiner eigenen, finanziellen Entwicklung.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/>Der Buchungslink wird in Kürze bekanntgegeben!</p> <p>Für die Vorbereitung lest bitte die Spielregeln durch. Diese findest Du hier:</p> <p><a href="
+      http: //www.momarcon.com/cashflow-squad/" class="linkified">http://www.momarcon.com/cashflow-squad/</a></p> <p>Die Teilnehmerzahl für die Abendtermine ist auf 30 beschränkt.</p> <p>Getränke und Speisen sind stets auf Selbstkostenbasis. Die Verpflegung erfolgt im Lokal vor Ort. Das Mitbringen eigener Speisen und Getränke ist daher nicht gestattet.</p> <p>Wir freuen uns auf euch und auf weitere Interessierte, die jeder von euch gerne mitbringen darf.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/><a href="https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033" class="linkified">https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033</a></p> ",
+      "how_to_find_us"
+      :
+      "Vom Haupteingang die Treppe rechts runter in den Raum "
+      Ambiente
+      "",
+      "visibility": "public"
+    },
+    {
+      "created": 1549455211000,
+      "duration": 14400000,
+      "id": "258727128",
+      "name": "Entwickle deinen CASHFLOW-IQ in WÜRZBURG",
+      "rsvp_limit": 30,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1561998420000,
+      "local_date": "2019-07-01",
+      "local_time": "18:27",
+      "updated": 1554319467000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 3,
+      "venue": {
+        "id": 26122724,
+        "name": "Kolping-Akademie",
+        "lat": 49.796669006347656,
+        "lon": 9.93280029296875,
+        "repinned": true,
+        "address_1": "Kolpingpl. 1",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1548671193000,
+        "name": "Cashflow Squad Würzburg",
+        "id": 31030986,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Cashflow-Secrets-Squad-Wurzburg",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Cashflow-Secrets-Squad-Wurzburg/events/258727128/",
+      "description": "<p>Wir Laden Alle Herzlich Ein, Mit Uns Das Ultimative Erlebnis Mit Robert T. Kiyosaki’s CASHFLOW101® Zu Verbringen!</p> <p>Sei beim CASHFLOW-Workshop dabei und triff Gleichgesinnte.<br/>Widme dich mit CASHFLOW101® deiner eigenen, finanziellen Entwicklung.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/>Der Buchungslink wird in Kürze bekanntgegeben!</p> <p>Für die Vorbereitung lest bitte die Spielregeln durch. Diese findest Du hier:</p> <p><a href="
+      http: //www.momarcon.com/cashflow-squad/" class="linkified">http://www.momarcon.com/cashflow-squad/</a></p> <p>Die Teilnehmerzahl für die Abendtermine ist auf 30 beschränkt.</p> <p>Getränke und Speisen sind stets auf Selbstkostenbasis. Die Verpflegung erfolgt im Lokal vor Ort. Das Mitbringen eigener Speisen und Getränke ist daher nicht gestattet.</p> <p>Wir freuen uns auf euch und auf weitere Interessierte, die jeder von euch gerne mitbringen darf.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/><a href="https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033" class="linkified">https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033</a></p> ",
+      "how_to_find_us"
+      :
+      "Vom Haupteingang die Treppe rechts runter in den Raum "
+      Ambiente
+      "",
+      "visibility": "public"
+    },
+    {
+      "created": 1549455256000,
+      "duration": 14400000,
+      "id": "258727136",
+      "name": "Entwickle deinen CASHFLOW-IQ in WÜRZBURG",
+      "rsvp_limit": 30,
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1565022420000,
+      "local_date": "2019-08-05",
+      "local_time": "18:27",
+      "updated": 1554319494000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 2,
+      "venue": {
+        "id": 26122724,
+        "name": "Kolping-Akademie",
+        "lat": 49.796669006347656,
+        "lon": 9.93280029296875,
+        "repinned": true,
+        "address_1": "Kolpingpl. 1",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1548671193000,
+        "name": "Cashflow Squad Würzburg",
+        "id": 31030986,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Cashflow-Secrets-Squad-Wurzburg",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Cashflow-Secrets-Squad-Wurzburg/events/258727136/",
+      "description": "<p>Wir Laden Alle Herzlich Ein, Mit Uns Das Ultimative Erlebnis Mit Robert T. Kiyosaki’s CASHFLOW101® Zu Verbringen!</p> <p>Sei beim CASHFLOW-Workshop dabei und triff Gleichgesinnte.<br/>Widme dich mit CASHFLOW101® deiner eigenen, finanziellen Entwicklung.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/>Der Buchungslink wird in Kürze bekanntgegeben!</p> <p>Für die Vorbereitung lest bitte die Spielregeln durch. Diese findest Du hier:</p> <p><a href="
+      http: //www.momarcon.com/cashflow-squad/" class="linkified">http://www.momarcon.com/cashflow-squad/</a></p> <p>Die Teilnehmerzahl für die Abendtermine ist auf 30 beschränkt.</p> <p>Getränke und Speisen sind stets auf Selbstkostenbasis. Die Verpflegung erfolgt im Lokal vor Ort. Das Mitbringen eigener Speisen und Getränke ist daher nicht gestattet.</p> <p>Wir freuen uns auf euch und auf weitere Interessierte, die jeder von euch gerne mitbringen darf.</p> <p>EINLASS NUR MIT GÜLTIGEM TICKET!<br/>TICKETS GIBTS HIER:<br/><a href="https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033" class="linkified">https://www.eventbrite.de/e/entwickle-deinen-cashflow-iq-in-wurzburg-tickets-59429767033</a></p> ",
+      "how_to_find_us"
+      :
+      "Vom Haupteingang die Treppe rechts runter in den Raum "
+      Ambiente
+      "",
+      "visibility": "public"
+    },
+    {
+      "created": 1558945790000,
+      "duration": 7200000,
+      "id": "261799152",
+      "name": "Zweites Treffen",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1560963600000,
+      "local_date": "2019-06-19",
+      "local_time": "19:00",
+      "updated": 1558945790000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26082540,
+        "name": "zweiviertel",
+        "lat": 49.79020690917969,
+        "lon": 9.932699203491211,
+        "repinned": true,
+        "address_1": "Hörleingasse 2",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1554128879000,
+        "name": "Unternehmen: Klimaschutz",
+        "id": 31531126,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Unternehmen-Klimaschutz",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Unternehmen-Klimaschutz/events/261799152/",
+      "description": "<p>tbd</p> ",
+      "visibility": "public"
+    },
+    {
+      "created": 1546447492000,
+      "duration": 7200000,
+      "id": "257711605",
+      "name": "4. Meetup Salesfranken - TITEL FOLGT",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1564506000000,
+      "local_date": "2019-07-30",
+      "local_time": "19:00",
+      "updated": 1546447601000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 2,
+      "venue": {
+        "id": 26036638,
+        "name": "snapADDY GmbH",
+        "lat": 49.79751205444336,
+        "lon": 9.935924530029297,
+        "repinned": true,
+        "address_1": "Haugerkirchgasse 7",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1544552542000,
+        "name": "Sales-Meetup Franken",
+        "id": 30690747,
+        "join_mode": "approval",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Salesfranken-Meetup",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Salesfranken-Meetup/events/257711605/",
+      "description": "<p>4. Treffen der Meetup Gruppe</p> ",
+      "visibility": "public"
+    },
+    {
+      "created": 1559331662000,
+      "duration": 10800000,
+      "fee": {
+        "accepts": "cash",
+        "amount": 5,
+        "currency": "EUR",
+        "description": "",
+        "label": "Preis",
+        "required": false
+      },
+      "id": "261936367",
+      "name": "Finanzielle Freiheit durch starkes Netzwerk - Würzburg",
+      "date_in_series_pattern": false,
+      "status": "upcoming",
+      "time": 1562086800000,
+      "local_date": "2019-07-02",
+      "local_time": "19:00",
+      "updated": 1559331918000,
+      "utc_offset": 7200000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 1,
+      "venue": {
+        "id": 26299159,
+        "name": "SophienBäck",
+        "lat": 49.786197662353516,
+        "lon": 9.937126159667969,
+        "repinned": true,
+        "address_1": "Sophienstraße 6",
+        "city": "Würzburg",
+        "country": "de",
+        "localized_country_name": "Deutschland"
+      },
+      "group": {
+        "created": 1554311529000,
+        "name": "Finanzielle Freiheit Durch Starkes Netzwerk Würzburg",
+        "id": 31548267,
+        "join_mode": "open",
+        "lat": 49.79999923706055,
+        "lon": 9.9399995803833,
+        "urlname": "Finanzielle-Freiheit-durch-starkes-Netzwerk-Wurzburg",
+        "who": "Mitglieder",
+        "localized_location": "Würzburg, Deutschland",
+        "state": "",
+        "country": "de",
+        "region": "de_DE",
+        "timezone": "Europe/Berlin"
+      },
+      "link": "https://www.meetup.com/de-DE/Finanzielle-Freiheit-durch-starkes-Netzwerk-Wurzburg/events/261936367/",
+      "description": "<p>Mein Freund und Mentor hat mir mal gesagt (und tut es noch heute)<br/>"
+      Vier
+      Dinge
+      sind
+      es,
+      die
+      du
+      zum
+      Erreichen
+      von
+      Reichtum,
+      Fülle
+      und
+      Finanzieller
+      Freiheit
+      brauchst: <br/>1.
+      Einen
+      persönlichen
+      Mentor<br/>2.
+      Einen
+      hieb-
+      und
+      stichfesten
+      Plan<br/>3.
+      Gute
+      und
+      viele
+      Gelegenheiten<br/>4.
+      Das
+      passende
+      Umfeld
+      oder
+      besser: Ein
+      Netzwerk.
+      Eine
+      Gemeinschaft
+      "</p> <p>Wenn du der Meinung bist, dass an allererster Stelle die GEMEINSCHAFT steht, dann bist du hier richtig.<br/>Wenn du der Meinung bist, dass alle anderen drei Punkte direkt mit einem unabhängigen NETZWERK verbunden sind, dann hole sie dir hier gerne ab.<br/>Wenn dir die beiden oben genannten Meinungen widerstreben, bleibe gerne Zuhause und schraube alleine weiter an deiner finanziellen Intelligenz.</p> <p>In der Zwischenzeit lernen wir uns hier im SophienBäck persönlich kennen und tauschen uns darüber aus:<br/>Wie eine starke Gemeinschaft<br/>... konkret zur finanziellen Freiheit verhelfen kann?<br/>... finanzielle Gelegenheiten erkennen und ergreifen lässt?<br/>... die Anzahl an Gelegenheiten drastisch erhöht?<br/>... einen konkreten Plan unterstützt?</p> <p>Kurzum:<br/>Egal ob über den Tellerrand blickender Angestellter, pfiffiger Selbstständiger, souveräner Unternehmer, eingesessener Investor...<br/>Hauptsache Geschmack, gute Laune und vor allem INTERESSE AM MENSCHEN selbst bringst du mit.</p> <p>Eintritt: 5€<br/>Bezüglich Parkmöglichkeit schreibe mir eine PN.</p> <p>Agenda:<br/>1. Anmoderation und Keynote<br/>- Ziel der regelmäßigen Meetups<br/>- die Kraft der Gemeinschaft<br/>- Finanzimpulse jenseits des gewöhnlichen Tellerrands<br/>2. 60-Sekunden Vorstellungsrunde<br/>Erzähle uns: Was macht dich aus und was SUCHST du?<br/>3. Gemeinsame Diskussionsrunde. Das Thema bestimmen die Teilnehmer durch die Umfrage in der persönlichen Nachricht<br/>4. Verbindung und Austausch<br/>Jetzt FINDEST du das, was du suchst</p> ",
+      "how_to_find_us": "Wir haben einen Raum für uns reserviert. Ich nehme dich in Empfang",
+      "visibility": "public"
+    }
+  ]
+}
