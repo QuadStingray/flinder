@@ -9,6 +9,7 @@ class ApplicationState with ChangeNotifier {
 
   var _db = DatabaseService();
 
+  var _eventList = List<Event>();
 
   bool _isFetchingEventData = false;
   bool _isFetchingUserData = false;
@@ -17,11 +18,13 @@ class ApplicationState with ChangeNotifier {
     _isFetchingEventData = true;
     notifyListeners();
 
+    _db.findAllEvents().then((events) => {_eventList.addAll(events)});
+
     // todo
     _isFetchingUserData = false;
     notifyListeners();
-
   }
+
   Future<void> fetchUserData() async {
     _isFetchingUserData = true;
     notifyListeners();
@@ -36,7 +39,7 @@ class ApplicationState with ChangeNotifier {
     return User.sampleUser;
   }
 
-  Future<List<Event>> getEventList() async {
-    return _db.findAllEvents();
+  List<Event> getEventList() {
+    return _eventList;
   }
 }
