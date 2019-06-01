@@ -28,7 +28,7 @@ class DatabaseService {
 
 
   List<Event> findAllEvents() {
-    // _db.collection(collectionNameEvents).getDocuments().then()
+    _db.collection(collectionNameEvents).snapshots().map((list) => list.documents.map((doc) => Event.fromFirestore(doc)).toList());
   }
 
 

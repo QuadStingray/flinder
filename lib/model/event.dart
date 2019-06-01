@@ -1,4 +1,4 @@
-import 'package:latlong/latlong.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:geoflutterfire/geoflutterfire.dart';
 
 class Event {
@@ -28,6 +28,21 @@ class Event {
   factory Event.fromJson(Map<String, dynamic> json) {
     return Event(
         id: json['id'],
+        title: json['title'],
+        location: json['location'],
+        startTime: json['startTime'],
+        endTime: json['endTime'],
+        description: json['description'],
+        source: json['source'],
+        externalId: json['externalId'],
+        externalUrl: json['externalUrl'],
+        tags: json['tags']);
+  }
+
+  factory Event.fromFirestore(DocumentSnapshot doc) {
+    Map json = doc.data;
+    return Event(
+        id: doc.documentID,
         title: json['title'],
         location: json['location'],
         startTime: json['startTime'],

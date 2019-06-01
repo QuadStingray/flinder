@@ -10,8 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  latlong: 0.6.1
-
   geoflutterfire:
 
   #  firebase_auth:
