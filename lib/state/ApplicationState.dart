@@ -6,6 +6,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ApplicationState with ChangeNotifier {
   ApplicationState();
+  var _db = DatabaseService();
+
 
   bool _isFetchingEventData = false;
   bool _isFetchingUserData = false;
@@ -35,10 +37,7 @@ class ApplicationState with ChangeNotifier {
   }
 
   List<Event> getEventList() {
-    var db = DatabaseService();
-    for(var item in Event.sampleEvents ) {
-      db.addEvent(item);
-    }
+
     return Event.sampleEvents;
   }
 }

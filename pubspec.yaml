@@ -12,7 +12,9 @@ dependencies:
 
   latlong: 0.6.1
 
-#  firebase_auth:
+  geoflutterfire:
+
+  #  firebase_auth:
 
   cloud_firestore:
 

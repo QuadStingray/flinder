@@ -27,4 +27,9 @@ class DatabaseService {
   }
 
 
+  List<Event> findAllEvents() {
+    // _db.collection(collectionNameEvents).getDocuments().then()
+  }
+
+
 }
