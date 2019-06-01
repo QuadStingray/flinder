@@ -18,19 +18,13 @@ class UserPreferencesPage extends StatefulWidget {
 
 class _UserPreferencesPageState extends State<UserPreferencesPage> {
   TextEditingController nicknameController = TextEditingController();
-  LocationData userLocation;
+  LatLng userLocation;
   var location = new Location();
 
   @override
-  void initState() async {
+  void initState() {
     super.initState();
-    userLocation = await location.getLocation();
-    if (widget.user != null) {
-      this.nicknameController.text = widget.user.nickname;
-      this.nicknameController.addListener(() {
-        widget.user.nickname = this.nicknameController.text;
-      });
-    }
+    initLocation();
   }
 
   @override
@@ -53,14 +47,24 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
                     width: MediaQuery.of(context).size.width,
                     child: GoogleMap(
                       initialCameraPosition: CameraPosition(
-                        target: LatLng(
-                          userLocation.latitude,
-                          userLocation.longitude,
-                        ),
+                        target: userLocation,
                         zoom: 20.0,
                       ),
                     ))
           ],
         ));
+  }
+
+  void initLocation() async {
+    var map = await location.getLocation();
+    setState(() {
+      userLocation = LatLng(map['latitude'], map['longitude']);
+    });
+    if (widget.user != null) {
+      this.nicknameController.text = widget.user.nickname;
+      this.nicknameController.addListener(() {
+        widget.user.nickname = this.nicknameController.text;
+      });
+    }
   }
 }
