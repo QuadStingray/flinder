@@ -27,9 +27,13 @@ class DatabaseService {
   }
 
 
-  List<Event> findAllEvents() {
-    _db.collection(collectionNameEvents).snapshots().map((list) => list.documents.map((doc) => Event.fromFirestore(doc)).toList());
+  Future<List<Event>> findAllEvents() async {
+    var querySnapshot =  await _db.collection(collectionNameEvents).getDocuments(); //.map((list) => list.documents.map((doc) => Event.fromFirestore(doc)).toList());
+    var events = querySnapshot.documents.map(
+            (doc) =>
+                Event.fromFirestore(doc)
+    ).toList();
+    return events;
   }
-
 
 }

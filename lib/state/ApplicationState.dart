@@ -6,6 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ApplicationState with ChangeNotifier {
   ApplicationState();
+
   var _db = DatabaseService();
 
 
@@ -17,11 +18,10 @@ class ApplicationState with ChangeNotifier {
     notifyListeners();
 
     // todo
-
-    _isFetchingEventData = false;
+    _isFetchingUserData = false;
     notifyListeners();
-  }
 
+  }
   Future<void> fetchUserData() async {
     _isFetchingUserData = true;
     notifyListeners();
@@ -36,7 +36,7 @@ class ApplicationState with ChangeNotifier {
     return User.sampleUser;
   }
 
-  List<Event> getEventList() {
+  Future<List<Event>> getEventList() async {
     return _db.findAllEvents();
   }
 }
