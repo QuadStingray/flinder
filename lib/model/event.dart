@@ -49,7 +49,7 @@ class Event {
     };
   }
 
-  List<Event> sampleEvents = [
+  static List<Event> sampleEvents = [
     Event(
         id: "1234",
         title: "Awesome Flutter",
