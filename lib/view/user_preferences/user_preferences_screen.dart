@@ -91,10 +91,10 @@ class _UserPreferencesPageState extends State<UserPreferencesPage> {
   }
 
   void initLocation() async {
-    var map = await location.getLocation();
-    setState(() {
-      userLocation = LatLng(map['latitude'], map['longitude']);
-    });
+    // var map = await location.getLocation();
+    // setState(() {
+    //   userLocation = LatLng(map['latitude'], map['longitude']);
+    // });
     avatarRotationIndex = 0;
     if (widget.user != null) {
       this.nicknameController.text = widget.user.nickname;
