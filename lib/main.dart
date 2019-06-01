@@ -1,3 +1,4 @@
+import 'package:flanders/view/user_preferences/user_preferences_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -30,10 +31,24 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[
+          // action button
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: () {
+              gotoPreferences();
+            },
+          )
+        ],
       ),
-      body: Center(
-        child: Text("Hello world"),
-      ),
+      body: Center(),
+    );
+  }
+
+  void gotoPreferences() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => UserPreferencesPage()),
     );
   }
 }
