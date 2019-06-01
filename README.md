@@ -22,4 +22,6 @@ iOS
 AIzaSyAa7L6Vf2za4DGjV6syeeyWdjqjyO6cqk0
 Android
 AIzaSyDm08FYRK9Z6ZMe8nH35c2UXgGTsM72L0A
+
+https://fireship.io/lessons/advanced-flutter-firebase/
  

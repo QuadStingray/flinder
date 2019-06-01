@@ -1,7 +1,8 @@
 import 'package:latlong/latlong.dart';
+import 'package:geoflutterfire/geoflutterfire.dart';
 
 class Event {
-  final String id;
+  String id;
   String title;
   LatLng location;
   DateTime startTime;
@@ -38,11 +39,13 @@ class Event {
         tags: json['tags']);
   }
 
-  Map toJson() {
+  Map<String, dynamic> toJson() {
+    GeoFirePoint point = GeoFirePoint(location.latitude, location.longitude);
+
     return {
       'id': id,
       'title': title,
-      'location': location,
+      'location': point.data,
       'startTime': startTime,
       'endTime': endTime,
       'description': description,

@@ -23,7 +23,7 @@ class User {
         avatarId: json['avatarId']);
   }
 
-  Map toJson() {
+  Map<String, dynamic> toJson() {
     return {
       'id': id,
       'nickname': nickname,
