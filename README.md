@@ -14,4 +14,5 @@ A new Flutter application.
    * UserList
    * UserDetail
    * UserMap
- 
+* FirebaseAuth
+* State management: Provider Pattern
