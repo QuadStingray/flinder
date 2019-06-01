@@ -12,7 +12,7 @@ class Event {
   String source;
   String externalId;
   String externalUrl;
-  List<String> tags;
+  List<dynamic> tags;
 
   Event(
       {this.id,
@@ -42,20 +42,21 @@ class Event {
 
   factory Event.fromFirestore(DocumentSnapshot doc) {
     Map json = doc.data;
-    GeoPoint geoPoint = json['position']['geopoint'];
+    GeoPoint geoPoint = json['location']['geopoint'];
     LatLng latLng = LatLng(geoPoint.latitude, geoPoint.longitude);
 
     return Event(
         id: doc.documentID,
         title: json['title'],
         location: latLng,
-        startTime: json['startTime'],
-        endTime: json['endTime'],
+        startTime: (json['startTime'] as Timestamp).toDate(),
+        endTime: (json['endTime'] as Timestamp).toDate(),
         description: json['description'],
         source: json['source'],
         externalId: json['externalId'],
         externalUrl: json['externalUrl'],
-        tags: json['tags']);
+        tags: json['tags']
+    );
   }
 
   Map<String, dynamic> toJson() {
