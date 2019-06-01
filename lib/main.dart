@@ -1,4 +1,4 @@
-import 'package:flanders/view/user_preferences/map_widget.dart';
+import 'package:flanders/view/map_widget.dart';
 import 'package:flanders/view/user_preferences/user_preferences_screen.dart';
 import 'package:flutter/material.dart';
 
