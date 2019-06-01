@@ -1,4 +1,5 @@
 import 'package:flanders/service/auth_service.dart';
+import 'package:flanders/view/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'flanders'),
+      home: LoginScreen(),
     );
   }
 }

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1002075690283-00fguitsbhlb39uq4qjia6dh3mprgs7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gdg.wuerzburg.flanders",
+            "certificate_hash": "5a9d546efa3fa2cd59c903900011bf44dd270910"
+          }
+        },
+        {
           "client_id": "1002075690283-j905h52igk8v0demlvsfjm8vgvgs05q3.apps.googleusercontent.com",
           "client_type": 3
         }
